@@ -1,2 +1,2 @@
-# Websites
-a repository of the different websites i have coded
+# Serietjenesten
+This is an online magasin i made in 1st semester. 
