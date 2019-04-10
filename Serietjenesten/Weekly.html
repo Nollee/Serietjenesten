@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="da">
+<!--Language set to English. Change to da for Danish if needed-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+
+    <title>Umbrella Academy</title>
+    <!--This title will be the heading on google search and on the tab in the browser. Can contain up to 70 characters-->
+    <meta name="description" content="Denne uges serie er Umbrella Academy!">
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Serietjenesten" width="100"></a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links" id="home">Hjem</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Find.html" class="nav-links">Find Serie</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Coming.html" class="nav-links">Kommende Serier</a>
+                </li>
+                <li class="left-nav">
+                    <a href="Weekly.html" class="nav-links">Ugens Serie</a>
+                </li>
+                <li class="left-nav">
+                    <a href="tips.html" class="nav-links">6 Tips</a>
+                </li>
+
+
+            </ul>
+            <script>
+                let mainNav = document.getElementById('js-menu');
+                let navBarToggle = document.getElementById('js-navbar-toggle');
+
+                navBarToggle.addEventListener('click', function() {
+
+                    mainNav.classList.toggle('active');
+                });
+
+                window.onscroll = function() {
+                    myFunction()
+                };
+            </script>
+
+        </nav>
+    </header>
+
+    <article>
+        <section>
+        <div class="weekly-intro">
+            <div class="flex-intro">
+                <img class="weekly-pic" src="images/umbrella.jpg" alt="UmbrellaAcademy">
+                <div class="weekly-intro-facts">
+                    <h1> Umbrella Academy</h1>
+                    <ul>
+                        <li>
+                            <p><b>Udgivet:</b> 2019</p>
+                        </li>
+                        <li>
+                            <p><b>Tid pr. episode:</b> 58 min.</p>
+                        </li>
+                        <li>
+                            <p><b>Sæsoner:</b> 1</p>
+                        </li>
+                        <li>
+                            <p><b>Genre:</b> Serie baseret på tegneserie, Action, Adventure, Sci-fi, Fantasy.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weekly-intro-text">
+                <p><b>Plot:</b> <br>"<i>I den 12. time på den første dag i oktober 1989 fødte 43 kvinder fra hele verden. Dette var kun usædvanligt, fordi kvinderne indtil da ikke havde vist nogen tegn på at være gravide</i>”<br> Det specielle ved de 43 børn er, at de alle sammen er født med unikke evner. Rigmanden Sir Reginald Hargreeves adopterer 7 af disse børn med det formål at lave et superhelteakademi som hedder ”The Umbrella Academy”. Disse 7 børn får hvert et navn fra nummer 1-7 og skal leve sammen som en familie i dette akademi, hvor deres ”mor” er en robot og akademiets butler er en Chimpanse som agerer ligesom et menneske. Dette går ikke som planlagt overhovedet og holdet går i opløsning.<br> Vi er nu i nutiden og børnene er alle sammen blevet voksne. De har lige fået at vide at deres ”far” Sir Reginald Hargreeves er død og de samles derfor alle sammen i akademiet for at begrave ham. Denne begravelse går ikke som planlagt, da nummer 5 lige pludselig dropper ned fra et hul i himlen og siger at jorden går under om 7 dage og deres job er at stoppe det.
+
+                </p>
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="weekly-content">
+            <div class="flex-top">
+                <div class="flexcontainer-left">
+                    <div class="review">
+                        <h2>Anmeldelser</h2>
+                        <p><b>Kritisk anmeldelse:</b></p>
+                        <a class="review-link" href="https://www.ekkofilm.dk/anmeldelser/umbrella-academy/">Ekkofilm <img src="images/stars_negative.png" alt="stars" height="15"></a> <br>
+                        <p><b>Positiv anmeldelse:</b></p>
+                        <a class="review-link" href="http://soundvenue.com/film/2019/02/the-umbrella-academy-ny-netflix-serie-er-for-alle-der-er-koert-traet-i-superheltegenren-348098">Soundvenue <img src="images/stars_positive.png" alt="stars" height="15"> </a>
+                    </div>
+                    <div class="remind">
+                        <h2>Minder om</h2>
+                        <ul>
+                                <li>The Flash</li>
+                                <li>Titans</li>
+                                <li>12 Monkeys</li>
+                                <li>The Magicians</li>
+                                <li>Arrow</li>
+                                <li>Dark Matter</li>
+                            
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="flexcontainer-right">
+                    <div class="why">
+                        <h2>Hvorfor den er værd at se</h2>
+                        <p>Du skal se denne serie hvis du godt kan lide det ukonventionelle og surrealistiske. Dette er ikke en typisk superheltehistorie, hvor heltene arbejder sammen om at overvinde den onde superskurk. De skal dog stadigvæk redde jorden fra en apokalypse, men dette er kun en lille del af seriens plot. Serien fokuserer mere på hvor svært det kan være at have superevner og hvilke problemer der kan være i en familie, hvor alle sammen er blevet trænet til at være en superhelt.<br> <br>Serien i sig selv indeholder masser af humor og så udvikler der sig nye drejninger i hver eneste episode, som gør at man bliver nødt til at se næste episode. Så når du først er gået i gang, ender du sikkert med at binge-watche hele serien på en gang.<br> <br> Selvom det ikke er en typisk superheltehistorie, kan den stadigvæk sagtens anbefales til dig som elsker superhelteuniverset, da der er masser af special effects, som virkelig komplimentere de unikke superevner de forskellige familiemedlemmer har, hvis det er det du elsker ved superheltegenren.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex-bot">
+                <div class="powers">
+                    <h2>&#40;SPOILERS&#41; De forskellige numres superkræfter</h2>
+                    <ul>
+                        <li><b>#1 Spaceboy:</b> Superstyrke og holdbardhed</li>
+                        <li><b>#2 The Kraken:</b> Kan kaste knive med dødelig præcision og kan ændre knivens retning mens den er i bevægelse</li>
+                        <li><b>#3 The Rumor:</b> Kan kontrollerer mennesker med sætningen "I heard a rumor"</li>
+                        <li><b>#4 The Seance:</b> Kan kontakte de døde</li>
+                        <li><b>#5 The Boy:</b> Kan rejse igennem tid og rum</li>
+                        <li><b>#6 The Horror: </b> Kraftfulde tentakler kommer ud af hans bryst</li>
+                        <li><b>#7 The White Violin:</b> Telekinetiske kræfter vha. lydbølger</li>
+                    </ul>
+                </div>
+                <div class="extra">
+                    <h2>Ekstra</h2>
+                    <p><b>Budget:</b> $23 millioner. <br> <br><b>Filmiske virkemidler:</b> Lorem ipsum…… <br> <br><b>Hvor godt passer den til genrerne:</b> Umbrella Academy passer perfekt til de forskellige genrer, da den indeholder masser af action i form af kampscener og der er massere af overnaturlige elementer såsom de forskellige superevner og så er der også en talende chimpanse. Derudover passer den også godt ind i Sci-fi genren, fordi meget af seriens plot omhandler tidsrejser og hvilke konsekvenser der tidsrejser har.
+                    </p>
+
+
+                </div>
+
+            </div>
+            <div class="write">
+                <h3>Skriv din egen mening</h3>
+                <form action="/action_page.php">
+                    <input type="text" name="review"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        </section>
+
+    </article>
+    <footer>
+        <div class="flex-footer">
+            <div class="contact">
+                <h4>Kontakt</h4>
+                <p>Mikkel Normann Andersen <br> <br> eaamina@students.eaaa.dk</p>
+            </div>
+            <div class="follow">
+                <h4>Følg Serietjenesten</h4>
+                <div class="social">
+                    <div class="social-top">
+                        <img src="images/facebook.png" alt="facebook">
+                        <img src="images/instagram.png" alt="instagram">
+                    </div>
+                    <div class="social-bot">
+                        <img src="images/snapchat.png" alt="snapchat">
+                        <img src="images/twitter.png" alt="Twitter">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

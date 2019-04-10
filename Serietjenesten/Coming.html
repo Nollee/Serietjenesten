@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="da">
+<!--Language set to English. Change to da for Danish if needed-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+
+    <title>Black Summer</title>
+    <!--This title will be the heading on google search and on the tab in the browser. Can contain up to 70 characters-->
+    <meta name="description" content="Black Summer er en post-apokalyptisk Tv-Serie som har releasedate 11. april 2019">
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Serietjenesten" width="100"></a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links" id="home">Hjem</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Find.html" class="nav-links">Find Serie</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Coming.html" class="nav-links">Kommende Serier</a>
+                </li>
+                <li class="left-nav">
+                    <a href="Weekly.html" class="nav-links">Ugens Serie</a>
+                </li>
+                <li class="left-nav">
+                    <a href="tips.html" class="nav-links">6 Tips</a>
+                </li>
+
+
+            </ul>
+            <script>
+                let mainNav = document.getElementById('js-menu');
+                let navBarToggle = document.getElementById('js-navbar-toggle');
+
+                navBarToggle.addEventListener('click', function() {
+
+                    mainNav.classList.toggle('active');
+                });
+
+                window.onscroll = function() {
+                    myFunction()
+                };
+
+            </script>
+
+        </nav>
+    </header>
+
+    <article>
+        <section>
+        <div class="weekly-intro">
+            <div class="flex-intro">
+                <iframe class="coming-video" src="https://www.youtube.com/embed/tQA1omPJN24" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="weekly-intro-facts">
+                    <h1> Black Summer</h1>
+                    <ul>
+                        <li><p><b>Release date:</b> 11. April 2019</p></li>
+                        <li><p><b>Antal Episoder:</b> 8</p></li>
+
+
+                        <li>
+                            <p><b>Genre:</b> Post-apocalyptic, Action, Drama, Horror, Thriller</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="weekly-intro-text">
+                <p><b>Plot:</b> <br>"Serien følger en mor som er blevet væk fra sin datter. Hun tager derfor på en gyselig rejse, igennem et post-apokalyptisk USA, for at finde sin datter. En zombievirus har spredt sig på hele jorden, men dette vil ikke stoppe moren. Hun rejser sammen med en lille gruppe af amerikanske overlevende, og de skal sammen prøve at overleve igennem sommeren og forhåbentlig få moren genforenet med sin datter igen. <br> - <i>Hollywoodreporter</i>
+
+                </p>
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="coming-content">
+        <div class="coming-remind">
+        <h3>Hvad minder Black Summer om?</h3>
+        <p>Black Summer er en spinoff af en zombie Tv-serie kaldt Z-Nation fra Syfy, og det vil være de samme producerer som står bag. Derfor vil den helt sikkert minde sig om Z-nation, dog med helt nye karakterer.
+            Derudover over minder den også om de andre Zombie-serier der er derude såsom Walking Dead og dens spinoff, Fear the Walking Dead. </p>
+            </div>
+        <div class="coming-why">
+        <h3>Hvorfor du skal se Black Summer</h3>
+        <p>Hvis du elsker at se film og serier som omhandler zombier og en post-apokalyptisk jord, vil denne serie helt sikkert være noget for dig. Serien vil derudover være mere uhyggelig og suspense-fyldt end tidligere zombieserier. Så hvis du stræber efter at sidde under dynen af skræk eller elsker en rigtig neglebider serie, så skal du helt sikkert give Black Summer en chance.  </p>
+            </div>
+            
+        </div>
+        </section>
+        
+        
+
+    </article>
+     <footer>
+    <div class="flex-footer">
+    <div class="contact">
+        <h4>Kontakt</h4>
+        <p>Mikkel Normann Andersen <br> <br> eaamina@students.eaaa.dk</p>
+        </div>
+    <div class="follow">
+        <h4>Følg Serietjenesten</h4>
+        <div class="social">
+        <div class="social-top">
+        <img src="images/facebook.png" alt="facebook">
+        <img src="images/instagram.png" alt="instagram">
+            </div>
+        <div class="social-bot">    
+        <img src="images/snapchat.png" alt="snapchat">
+        <img src="images/twitter.png" alt="Twitter">
+            </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    </body>
+</html>

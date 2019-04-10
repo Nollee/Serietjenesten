@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="da">
+<!--Language set to English. Change to da for Danish if needed-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+
+    <title>6 tips</title>
+    <!--This title will be the heading on google search and on the tab in the browser. Can contain up to 70 characters-->
+    <meta name="description" content="Herinde kan du få 6 forskellige tips til hvordan man finder en ny Tv-serie">
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Serietjenesten" width="100"></a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links" id="home">Hjem</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Find.html" class="nav-links">Find Serie</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Coming.html" class="nav-links">Kommende Serier</a>
+                </li>
+                <li class="left-nav">
+                    <a href="Weekly.html" class="nav-links">Ugens Serie</a>
+                </li>
+                <li class="left-nav">
+                    <a href="tips.html" class="nav-links">6 Tips</a>
+                </li>
+
+
+            </ul>
+            <script>
+                let mainNav = document.getElementById('js-menu');
+                let navBarToggle = document.getElementById('js-navbar-toggle');
+
+                navBarToggle.addEventListener('click', function() {
+
+                    mainNav.classList.toggle('active');
+                });
+
+                window.onscroll = function() {
+                    myFunction()
+                };
+            </script>
+
+        </nav>
+    </header>
+
+    <article>
+        <div class="tips">
+            <h1>6 tips til at finde en ny serie</h1>
+            <img class="tip-pic" src="images/cameras-composition-computer-1483937.jpg" alt="tips">
+            <h2>Tip 1: Spørg dine venner</h2>
+            <p>Hvis du lige er blevet færdig med en serie og ikke aner hvad du nu skal se, prøv at spørg nogle af dine venner. De har helt sikkert set en serie du ikke har set før og vil hellere end gerne overtale dig til at se den, da de meget gerne vil have endnu en som de kan snakke med om serien. For det meste vil serien også være noget du vil finde interessant, da dig og dine venner må have nogle fælles interesser.</p>
+            <h2>Tip 2: Se altid to eller tre episoder</h2>
+            <p>Hvis du har fundet en ny serie som du er i tvivl om, giv den en fair chance. Mange Tv-serier starter med en pilotepisode som ikke rigtigt fortæller noget om plottet, men introducerer mere seerne til de forskellige karakterer. Man kan aldrig dømme en serie ud fra den første episode, så selvom du ikke lige blev fanget ved første episode, sig til dig selv at du lige skal se endnu en episode, før du dropper den. Det er lidt ligesom en bog, aldring døm en bog på dens omslag.</p>
+            <h2>Tip 3: Find ud af hvilken genre der tiltrækker dig</h2>
+            <p>Kig tilbage på de serier du allerede har set og find ud af om disse serier har en genre tilfælles. Du vil hurtigt finde ud af at der er en genre som gentager sig i de forskellige serier. Prøv derefter at kig efter nye serier som indeholder denne genre og undersøg hvad serien handler om. Hvis plottet lyder spændende, giv serien en chance. Over halvdelen af gangene vil du helt sikkert finde en serie som fanger dig. </p>
+            <h2>Tip 4: Gå tilbage i tiden </h2>
+            <p>Tv-serier blev ikke opfundet sammen med streamingtjenester. Derimod er der tonsvis af Tv-serier som er årtier gammelt og mange af dem er ikke så dårlige endda. Der er selvfølgelig klassikere ligesom Friends og Beverly Hills 90210 og de kan begge to findes inde på en streamingtjeneste. Spørg dine forældre hvad de så da de var unge og du vil blive overrasket over hvor gode nogle af disse serier faktisk er.</p>
+            <h2>Tip 5: Kig på de mest populærer</h2>
+            <p>Der vil altid være nogle serier som er de mest populære inde på en streamingtjeneste. Prøv at give dem en chance hvis du ikke allerede har set dem, da de må være populære af en grund. Se på en serie som fx Game of Thrones. Den er vurderet til at være den bedste serie i verden og dette er den fordi den fanger de folk som normalt ikke er til serier med masser af sværdkampe og ildspyende drager. <br> <br>Selvom de mest populære har nogle bestemte genrer som de forholder sig til, indeholder sådan nogle serier altid noget ekstraordinært.</p>
+            <h2>Tip 6: Udvid dine horisonter</h2>
+            <p>Hvis du stadigvæk ikke kan finde en serie at se, prøv at udvid dine horisonter. Kig de streamingtjenester igennem som du har adgang til og prøv evt. at give en ny genre en chance. <br> <br>
+                Prøv også at give serier du har sagt til dig selv at du aldrig skal se et kig. Det har jeg personligt prøvet og kan kun sige at jeg faktisk har endt med at blive fuldstændigt fanget af nogle af de serier. </p>
+        </div>
+
+
+
+    </article>
+     <footer>
+    <div class="flex-footer">
+    <div class="contact">
+        <h4>Kontakt</h4>
+        <p>Mikkel Normann Andersen <br> <br> eaamina@students.eaaa.dk</p>
+        </div>
+    <div class="follow">
+        <h4>Følg Serietjenesten</h4>
+        <div class="social">
+        <div class="social-top">
+        <img src="images/facebook.png" alt="facebook">
+        <img src="images/instagram.png" alt="instagram">
+            </div>
+        <div class="social-bot">    
+        <img src="images/snapchat.png" alt="snapchat">
+        <img src="images/twitter.png" alt="Twitter">
+            </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+
+</body>
+</html>

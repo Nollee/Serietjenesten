@@ -1,0 +1,592 @@
+/*CSS document*/
+
+/*Insert global rules here - rules that apply for all pages on your site and all device sizes. This could be text color, font type, font-sizes, margin on elements */
+
+/*COMMENTS WITH CAPITAL LETTERS ARE EASY TO SPOT, SO USE THEM FOR HEADINGS FOR OVERVIEW. IT IS A GOOD IDEA TO HAVE A HEADING FOR YOUR HEADER, NAVIGATION, MAIN AND FOOTER. SEE EXAMPLE BELOW*/
+
+
+/*HEADER*/
+
+/* example where you target the h1 inside the header tag and give it a color and a size */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url(css-images/baggrund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+article {
+    margin-bottom: 80px;
+    margin-top: 125px;
+    
+}
+
+header h3 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h1 {
+    color: #fcde76;
+
+
+}
+
+h4 {
+    color: #fcde76;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+p {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6;
+
+}
+
+/* css til navbar */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    margin: 0px;
+    top: 0;
+}
+
+.navbar {
+    font-size: 1.5vw;
+    background-color: #d6bd66;
+    border: 1px solid grey;
+    padding-bottom: 12px;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+
+
+.main-nav {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #3a4145;
+    font-weight: bold;
+}
+
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    position: relative;
+    left: 40%;
+    right: 40%;
+    top: 4px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: #495257;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-top {
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.card-top:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card-top:hover,
+.card-bot:hover {
+    cursor: pointer;
+
+}
+
+.top-pic {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+    color: #f8f17c;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    height: 125px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.pic {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.card-bot {
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 3%;
+    ;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.card-bot:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bot-pic {
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+}
+
+.intro {
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0.75;
+}
+
+#intro-text {
+    color: #f8f17c;
+    font-weight: bolder;
+}
+
+.weekly-intro {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.weekly-pic {
+    width: 100%;
+}
+
+.weekly-intro ul {
+    list-style: none;
+    margin: 5px;
+}
+
+.weekly-intro li,
+.weekly-intro-text {
+    color: #f8f17c;
+}
+
+.weekly-intro-text {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.flex-top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flex-bot{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.weekly-intro-facts li,
+.weekly-intro-facts h1 {
+    margin: 7px;
+}
+
+.weekly-content {
+    color: black;
+    width: 100%;
+}
+
+.weekly-content h2 {
+    margin-bottom: 10px;
+}
+
+.review,
+.remind,
+.powers,
+.why,
+.extra {
+    background-color: #f5ed88;
+    border: 5px solid black;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+    opacity: 0.85;
+}
+
+.remind ul,
+.powers ul {
+    list-style: none;
+    line-height: 1.6;
+}
+
+.remind{
+    font-weight: bold;
+}
+
+
+
+.remind,
+.review {
+    height: 50%;
+}
+
+
+
+.coming-video {
+    width: 100%;
+    height: 300px;
+}
+
+.coming-content{
+    margin-bottom: 50px;
+}
+
+.coming-content h3 {
+        color: #a88e2b;
+        margin-top: 30px;
+    }
+
+    .coming-content p {
+        font-weight: bold;
+    }
+
+.tip-pic {
+    width: 100%;
+}
+
+.tips h1 {
+    color: #a98c1b;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.tips h2 {
+    color: #a98c1b;
+    margin-top: 15px;
+}
+
+.tips p {
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+
+footer {
+    background: rgba(105, 105, 105, 0.8);
+    border-top: solid 1px black;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+footer h4 {
+    color: #d6bd66;
+    font-size: 30px;
+}
+
+footer p {
+    color: #d6bd66;
+    font-weight: bold;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-top,
+.social-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.write {
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.write h1 {
+    color: #a98c1b;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+    article {
+        width: 75%;
+        margin: auto;
+        margin-top: 125px;
+    }
+    
+    .logo{
+        left: 45%;
+    }
+
+    .card-top {
+        width: 100%;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro {
+        margin: 10px;
+    }
+
+    .flex-intro {
+        display: flex;
+
+    }
+
+    .weekly-pic {
+        width: 50%;
+        height: 60%;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .weekly-intro-facts {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .flex-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.flexcontainer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+    
+    .flexcontainer-right{
+        width: 45%;
+    }
+    
+    .flex-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    
+    .powers,
+.extra {
+    width: 45%;
+}
+
+    .coming-video {
+        height: 300px;
+        width: 50%;
+        margin: 20px;
+        border: 3px solid black;
+    }
+
+    .flex-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    
+    .container{
+        font-size: 20px;
+    }
+}
+
+
+    @media screen and (min-width: 1140px) {
+        
+        nav{
+            position: relative;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 0;
+            height: 100px;
+            align-items: center;
+        }
+
+        .main-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-right: 5%;
+            font-size: 20px;
+            
+        }
+
+        .main-nav li {
+            margin: 0;
+        }
+
+        .nav-links {
+            margin: 4em;
+        }
+
+        .right-nav,
+        .left-nav {
+            display: flex;
+            flex-direction: row;
+            margin: 2em;
+        }
+
+        .logo {
+            position: absolute;
+            left: 47%;
+            right: 53%;
+            padding: 0;
+        }
+
+        .navbar-toggle {
+            display: none;
+        }
+
+        .logo:hover,
+        .nav-links:hover {
+            color: grey;
+        }
+
+        #home {
+            display: none;
+        }
+
+        body {
+            margin: auto;
+        }
+
+        article {
+            width: 55%;
+            margin: auto;
+
+        }
+
+
+
+        .container {
+            font-size: 1.2vw;
+        }
+
+        .bot {
+            margin: auto;
+            width: 100%;
+        }
+
+        .bot-pic {
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        .card-bot {
+            width: 40%;
+        }
+
+        .bot-pic {
+            height: 250px;
+        }
+        .top-pic{
+            height: 450px;
+        }
+        .coming-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coming-remind, .coming-why{
+    width: 45%;
+}
+    }
+    
+
+
+    /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/

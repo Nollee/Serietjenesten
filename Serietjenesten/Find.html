@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="da">
+<!--Language set to English. Change to da for Danish if needed-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--This ensures that the browser can read special signs and characters like the Danish letters æ, ø, å -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This helps avoid that a site displays differently with different screen resolutions -->
+
+    <title>Find serie</title>
+    <!--This title will be the heading on google search and on the tab in the browser. Can contain up to 70 characters-->
+    <meta name="description" content="Her kan du finde en serie!">
+    <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--This is a link to the stylesheet. Any rule written in the stylesheet will be used for this page -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+
+
+</head>
+
+<body>
+<header>
+    <nav class="navbar" id="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="Serietjenesten" width="100"></a>
+        <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="index.html" class="nav-links" id="home">Hjem</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Find.html" class="nav-links">Find Serie</a>
+                </li>
+                <li class="right-nav">
+                    <a href="Coming.html" class="nav-links">Kommende Serier</a>
+                </li>
+                <li class="left-nav">
+                    <a href="Weekly.html" class="nav-links">Ugens Serie</a>
+                </li>
+                <li class="left-nav">
+                    <a href="tips.html" class="nav-links">6 Tips</a>
+                </li>
+
+
+            </ul>
+        <script>
+            let mainNav = document.getElementById('js-menu');
+            let navBarToggle = document.getElementById('js-navbar-toggle');
+
+            navBarToggle.addEventListener('click', function() {
+
+                mainNav.classList.toggle('active');
+            });
+
+            window.onscroll = function() {
+                myFunction()
+            };
+
+
+        </script>
+
+    </nav>
+    </header>
+    <article>
+    <div class="top">
+    <div class="card-top">
+        <div class="pic">
+        <img class="top-pic" src="images/facial-expression-furnitures-group-1595387.jpg" alt="Forskellige anledninger">
+        <div class="text-block">
+            <h4>Forskellige anledninger</h4>
+            </div>
+        </div>
+        <div class="container">
+        <p>Herinde kan du finde serier til forskellige anledninger. <br> Det er fx serier du kan se sammen med venner, kæresten eller familien.
+            </p>
+        </div>
+        
+        </div>
+    <div class="card-top">
+        <div class="pic">
+        <img class="top-pic" src="images/adult-art-black-and-white-604694.jpg" alt="Genre">
+        <div class="text-block">
+            <h4>Genre</h4>
+            </div>
+        </div>
+        <div class="container">
+        <p>Her kan du finde en liste over de forskellige genrer og nogle serier der passer til genrerne
+            </p>
+        </div>
+        <div class="card-top">
+        <div class="pic">
+        <img class="top-pic" src="images/vikings-blood-landscape-maxi-poster-1.16.jpg" alt="Mest populære">
+        <div class="text-block">
+            <h4>Mest populære</h4>
+            </div>
+        </div>
+        <div class="container">
+        <p>Her kan du se hvilke serier der er mest populær på de forskellige streamingtjenester
+            </p>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+    
+    </article>
+    <footer>
+    <div class="flex-footer">
+    <div class="contact">
+        <h4>Kontakt</h4>
+        <p>Mikkel Normann Andersen <br> <br> eaamina@students.eaaa.dk</p>
+        </div>
+    <div class="follow">
+        <h4>Følg Serietjenesten</h4>
+        <div class="social">
+        <div class="social-top">
+        <img src="images/facebook.png" alt="facebook">
+        <img src="images/instagram.png" alt="instagram">
+            </div>
+        <div class="social-bot">    
+        <img src="images/snapchat.png" alt="snapchat">
+        <img src="images/twitter.png" alt="Twitter">
+            </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    </body>
+</html>
